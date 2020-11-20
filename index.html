@@ -8,11 +8,21 @@
 
 <p>La Luce nella nostra vita è ciò che ti permette di andare avanti e non arrenderti</p>
 
-<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Accendi</button>
+
+<button  onclick="myFunction()">Accendi</button>
 
 <img id="myImage" src="pic_bulboff.gif" style="width:100px">
 
 <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Spegni</button>
+<p id="link"></p>
 </div>
+
+<script>
+    function myFunction() {
+        document.getElementById('myImage').src='pic_bulbon.gif'
+        document.getElementById("link").innerHTML = "https://ggarenoo.github.io/1parola_201120.html";
+    }
+    </script=>
+
 </body>
 </html>
