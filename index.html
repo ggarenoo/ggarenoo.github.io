@@ -9,20 +9,23 @@
 <p>La Luce nella nostra vita è ciò che ti permette di andare avanti e non arrenderti</p>
 
 
-<button  onclick="myFunction()">Accendi</button>
+<button onclick="myFunction()">Accendi</button>
 
 <img id="myImage" src="pic_bulboff.gif" style="width:100px">
 
 <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Spegni</button>
-<p id="link"></p>
+<div style="padding-top: 10px;">
+    <a href="https://ggarenoo.github.io/1parola_201120.html" id="demo"></a>
+</div>
+
 </div>
 
 <script>
     function myFunction() {
         document.getElementById('myImage').src='pic_bulbon.gif'
-        document.getElementById("link").innerHTML = "https://ggarenoo.github.io/1parola_201120.html";
+        document.getElementById("demo").innerHTML = "https://ggarenoo.github.io/1parola_201120.html";
     }
-    </script=>
+</script>
 
 </body>
 </html>
